@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-exemplo-cliente-rest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>spring-exemplo-cliente-rest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="spring-exemplo-cliente-rest-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spring-exemplo-cliente-rest:war exploded" />
+    </root>
+  </artifact>
+</component>
